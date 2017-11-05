@@ -1,6 +1,17 @@
 Version History:
 ~~~~~~~~~~~~~~~~
 
+-  1.5.11: Fix typo near version string
+-  1.5.10: Print the error code if the action failed
+-  1.5.9: Migrate the OpenShift auth server
+-  1.5.8: Add ``--move`` flag to delete source files/directories on
+   successfull transfers
+-  1.5.7: Reduce multiprocess timeout to 49 days, to accommodate Python
+   3 on Windows
+-  1.5.6: Downloading using downloader also retries
+-  1.5.5: Minor: Improve 'multiprocess' installation prompts
+-  1.5.4: Print instructions on how to fix 'multiprocess' errors
+-  1.5.3: Change to streaming upload
 -  1.5.2: Defuse the circular import bomb brought in the previous
    version...
 -  1.5.1: Improve multiprocess (and fix filter() for Python3)
